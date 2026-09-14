@@ -9,17 +9,22 @@
 
 :root {
   /* ---- Color tokens (edit these to re-theme the whole site) ---- */
-  --bg:            #10141b;
-  --bg-panel:      #171d27;
-  --bg-panel-alt:  #1b222e;
-  --line:          #2a3341;
-  --line-soft:     #1f2733;
-  --accent:        #4fa8ff;
-  --accent-dim:    #2f6fa8;
-  --accent-warm:   #f2a65a;
-  --text:          #e8ecf1;
-  --text-muted:    #8c97a8;
-  --text-dim:      #5b6577;
+
+  --bg:           #f5f8fc;
+  --bg-panel:     #ffffff;
+  --bg-panel-alt: #eef4fa;
+
+  --line:         #d9e2ec;
+  --line-soft:    #e8eef5;
+
+  --accent:       #1677ff;
+  --accent-dim:   #5a9cff;
+  --accent-warm:  #f59e42;
+
+  --text:         #909fc0;
+  --text-muted:   #5c6b7f;
+  --text-dim:     #8794a7;
+
 
   /* ---- Type tokens ---- */
   --font-display: 'Space Grotesk', 'Segoe UI', sans-serif;

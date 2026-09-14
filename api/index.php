@@ -25,8 +25,8 @@
   <nav class="navbar" aria-label="Main navigation">
     <a href="#home" class="nav-logo">
       <!-- REPLACE: initials / short logo mark -->
-      <span class="nav-logo-mark">YN</span>
-      <span class="nav-logo-text">Your Name</span>
+      <span class="nav-logo-mark">DH</span>
+      <span class="nav-logo-text">Doha EL Handira</span>
     </a>
 
     <button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="navMenu" aria-label="Toggle navigation menu">
@@ -177,7 +177,7 @@
 
             <div class="uml-card-header">
               <span class="uml-card-index">01</span>
-              <span class="uml-card-stereotype">«Class Diagram»</span>
+              <span class="uml-card-stereotype">«Simple Diagram»</span>
             </div>
 
             <div class="uml-card-icon" aria-hidden="true">
@@ -196,71 +196,11 @@
           </a>
         </article>
 
-        <article class="uml-card">
-          <a class="uml-card-link"
-             href="https://github.com/YOUR_USERNAME/YOUR_REPOSITORY/tree/main/UML/Exercise-02"
-             target="_blank" rel="noopener noreferrer"
-             aria-label="View UML Exercise 02: Online Shopping System on GitHub">
 
-            <div class="uml-card-header">
-              <span class="uml-card-index">02</span>
-              <span class="uml-card-stereotype">«Use Case Diagram»</span>
-            </div>
 
-            <div class="uml-card-icon" aria-hidden="true">
-              <svg viewBox="0 0 24 24" fill="none"><circle cx="12" cy="7" r="4"/><path d="M4 21v-1a8 8 0 0 1 16 0v1"/></svg>
-            </div>
+  
 
-            <div class="uml-card-body">
-              <h3>Online Shopping System</h3>
-              <p>Actor interactions across browsing, checkout, and order management.</p>
-            </div>
-
-            <div class="uml-card-footer">
-              <span>View Exercise</span>
-              <span class="uml-card-arrow" aria-hidden="true">→</span>
-            </div>
-          </a>
-        </article>
-
-        <article class="uml-card">
-          <a class="uml-card-link"
-             href="https://github.com/YOUR_USERNAME/YOUR_REPOSITORY/tree/main/UML/Exercise-03"
-             target="_blank" rel="noopener noreferrer"
-             aria-label="View UML Exercise 03: Banking System on GitHub">
-
-            <div class="uml-card-header">
-              <span class="uml-card-index">03</span>
-              <span class="uml-card-stereotype">«Sequence Diagram»</span>
-            </div>
-
-            <div class="uml-card-icon" aria-hidden="true">
-              <svg viewBox="0 0 24 24" fill="none"><line x1="5" y1="3" x2="5" y2="21"/><line x1="19" y1="3" x2="19" y2="21"/><path d="M5 8h14M19 14H5" marker-end="url(#a)"/></svg>
-            </div>
-
-            <div class="uml-card-body">
-              <h3>Banking System</h3>
-              <p>Message flow for a funds-transfer request between account holder and bank.</p>
-            </div>
-
-            <div class="uml-card-footer">
-              <span>View Exercise</span>
-              <span class="uml-card-arrow" aria-hidden="true">→</span>
-            </div>
-          </a>
-        </article>
-
-        <!--
-          REPLACE / ADD MORE CARDS HERE.
-          Copy an <article class="uml-card">...</article> block above,
-          then change:
-            - the href (GitHub link)
-            - the aria-label
-            - uml-card-index (number)
-            - uml-card-stereotype (diagram type)
-            - <h3> title
-            - <p> description
-        -->
+   
 
       </div>
     </div>
@@ -274,13 +214,7 @@
         <p class="section-sub">Other things I've built, from coursework and on my own.</p>
       </div>
 
-      <!--
-        ===============================================================
-        PROJECT CARDS
-        Duplicate a <article class="project-card"> block to add more.
-        Replace the image path, title, description, tech list and links.
-        ===============================================================
-      -->
+ 
       <div class="projects-grid">
 
         <article class="project-card">
@@ -294,7 +228,7 @@
             <ul class="project-tech">
               <li>Java</li>
               <li>MySQL</li>
-              <li>Swing</li>
+              <li>HTML</li>
             </ul>
             <div class="project-links">
               <a href="https://github.com/YOUR_USERNAME/PROJECT_ONE" class="btn btn-small" target="_blank" rel="noopener noreferrer">
@@ -317,8 +251,8 @@
             <p>One or two sentences describing what this project does and the problem it solves.</p>
             <ul class="project-tech">
               <li>Python</li>
-              <li>Flask</li>
-              <li>SQLite</li>
+              <li>OOP</li>
+              <li>SQL</li>
             </ul>
             <div class="project-links">
               <a href="https://github.com/YOUR_USERNAME/PROJECT_TWO" class="btn btn-small" target="_blank" rel="noopener noreferrer">
@@ -348,17 +282,17 @@
           <li>
             <svg class="icon" viewBox="0 0 24 24" fill="none" aria-hidden="true"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m2 7 10 6 10-6"/></svg>
             <!-- REPLACE: your email -->
-            <a href="mailto:your.email@example.com">your.email@example.com</a>
+            <a href="dohahandira@gmail.com">dohahandira@gmail.com</a>
           </li>
           <li>
             <svg class="icon" viewBox="0 0 16 16" aria-hidden="true"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8Z"/></svg>
             <!-- REPLACE: your GitHub profile URL -->
-            <a href="https://github.com/YOUR_USERNAME" target="_blank" rel="noopener noreferrer">github.com/YOUR_USERNAME</a>
+            <a href="https://github.com" target="_blank" rel="noopener noreferrer">github.com</a>
           </li>
           <li>
             <svg class="icon" viewBox="0 0 24 24" fill="none" aria-hidden="true"><rect x="2" y="2" width="20" height="20" rx="3"/><path d="M7 10v7M7 7v.01M12 17v-4.5a2.5 2.5 0 0 1 5 0V17M12 10v7"/></svg>
             <!-- REPLACE: your LinkedIn profile URL -->
-            <a href="https://linkedin.com/in/YOUR_USERNAME" target="_blank" rel="noopener noreferrer">linkedin.com/in/YOUR_USERNAME</a>
+            <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">linkedin.com</a>
           </li>
         </ul>
 

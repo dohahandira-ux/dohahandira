@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Doha El Handira | Portfolio</title>
+    <meta name="description" content="Portfolio de Doha El Handira — Développement Digital.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+<header class="navbar">
+    <a href="#accueil" class="logo">
+        <span>DH</span>
+        <strong>Doha El Handira</strong>
+    </a>
+
+    <button class="menu-toggle" id="menuToggle" aria-label="Ouvrir le menu">☰</button>
+
+    <nav id="navMenu">
+        <a class="active" href="#accueil">Accueil</a>
+        <a href="#modules">Modules</a>
+        <a href="#mini-projets">Mini Projets</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <div class="nav-socials">
+        <a href="https://github.com/YOUR_USERNAME" target="_blank" aria-label="GitHub">⌘</a>
+        <a href="https://www.linkedin.com/in/YOUR_USERNAME" target="_blank" aria-label="LinkedIn">in</a>
+        <button id="themeToggle" aria-label="Changer le thème">☾</button>
+    </div>
+</header>
+
+<main>
+    <section id="accueil" class="hero">
+        <div class="hero-copy">
+            <span class="eyebrow">DÉVELOPPEMENT DIGITAL</span>
+            <h1>Bonjour, je suis<br><span>Doha El Handira</span></h1>
+            <p>
+                Étudiante en développement web, passionnée par la création
+                de solutions digitales et l'apprentissage de nouvelles technologies.
+            </p>
+
+            <a href="#modules" class="btn">Découvrir mes modules <span>→</span></a>
+        </div>
+
+        <div class="hero-photo-wrap">
+            <div class="photo-ring"></div>
+            <div class="hero-photo">
+                <img src="me.png" alt="Photo de Doha El Handira"
+                     onerror="this.style.display='none'; this.parentElement.classList.add('photo-placeholder');">
+                
+            </div>
+        </div>
+
+        <aside class="hero-info">
+            <div><span>⌖</span><p>Tangier, Morocco</p></div>
+            <div><span>⌂</span><p>Étudiante en<br>Développement Digital</p></div>
+            <div><span>&lt;/&gt;</span><p>Passionnée par<br>le web, le design & la tech</p></div>
+
+            <div class="mini-socials">
+                <a href="https://github.com/YOUR_USERNAME" target="_blank">⌘</a>
+                <a href="https://www.linkedin.com/in/YOUR_USERNAME" target="_blank">in</a>
+                <a href="mailto:dohahandira@gmail.com">✉</a>
+            </div>
+        </aside>
+    </section>
+
+    <section id="modules" class="section">
+        <div class="section-heading">
+            <span>MES MODULES</span>
+            <h2>Parcours de formation</h2>
+            <p>Découvrez mes travaux réalisés pendant ma formation, organisés par modules et ateliers.</p>
+        </div>
+
+        <div class="modules-grid">
+            <article class="module-card purple">
+                <div class="module-icon">♧</div>
+                <h3>UML</h3>
+                <p>Modélisation et conception des systèmes avec UML.</p>
+                <div class="atelier-list">
+                    <a href="uml/atelier-1.html">▧ &nbsp; Atelier 1</a>
+                    <a href="uml/atelier-2.html">▧ &nbsp; Atelier 2</a>
+                    <a href="uml/atelier-3.html">▧ &nbsp; Atelier 3</a>
+                </div>
+                <a href="#mini-projets" class="card-arrow">→</a>
+            </article>
+
+            <article class="module-card pink">
+                <div class="module-icon">F</div>
+                <h3>Figma</h3>
+                <p>Maquettes et prototypes d'interfaces utilisateurs.</p>
+                <div class="atelier-list">
+                    <a href="figma/atelier-1.html">▧ &nbsp; Atelier 1</a>
+                    <a href="figma/atelier-2.html">▧ &nbsp; Atelier 2</a>
+                    <a href="figma/atelier-3.html">▧ &nbsp; Atelier 3</a>
+                </div>
+                <a href="#" class="card-arrow">→</a>
+            </article>
+
+            <article class="module-card orange">
+                <div class="module-icon">&lt;/&gt;</div>
+                <h3>HTML / CSS</h3>
+                <p>Structure et style des pages web.</p>
+                <div class="atelier-list">
+                    <a href="html-css/atelier-1.html">▧ &nbsp; Atelier 1</a>
+                    <a href="html-css/atelier-2.html">▧ &nbsp; Atelier 2</a>
+                    <a href="html-css/atelier-3.html">▧ &nbsp; Atelier 3</a>
+                </div>
+                <a href="#" class="card-arrow">→</a>
+            </article>
+
+            <article class="module-card yellow">
+                <div class="module-icon">JS</div>
+                <h3>JavaScript</h3>
+                <p>Interactions et dynamique sur le web.</p>
+                <div class="atelier-list">
+                    <a href="javascript/atelier-1.html">▧ &nbsp; Atelier 1</a>
+                    <a href="javascript/atelier-2.html">▧ &nbsp; Atelier 2</a>
+                    <a href="javascript/atelier-3.html">▧ &nbsp; Atelier 3</a>
+                </div>
+                <a href="#" class="card-arrow">→</a>
+            </article>
+
+            <article class="module-card cyan">
+                <div class="module-icon">PHP</div>
+                <h3>PHP / SQL</h3>
+                <p>Développement côté serveur et gestion de base de données.</p>
+                <div class="atelier-list">
+                    <a href="php-sql/atelier-1.html">▧ &nbsp; Atelier 1</a>
+                    <a href="php-sql/atelier-2.html">▧ &nbsp; Atelier 2</a>
+                    <a href="php-sql/projet.html">▧ &nbsp; Projet</a>
+                </div>
+                <a href="#" class="card-arrow">→</a>
+            </article>
+
+            <article class="mini-feature" id="mini-projets">
+                <div class="feature-overlay"></div>
+                <div class="feature-content">
+                    <div class="folder">▰</div>
+                    <h3>Mini Projets</h3>
+                    <p>Petits projets pour appliquer mes compétences et explorer de nouvelles idées.</p>
+                    <a href="#projects" class="btn">Voir les mini projets <span>→</span></a>
+                </div>
+                <div class="feature-note">Small projects.<br>Big progress ♡</div>
+            </article>
+        </div>
+    </section>
+
+    <section id="projects" class="section projects-section">
+        <div class="section-heading">
+            <span>MES RÉALISATIONS</span>
+            <h2>Mini Projets</h2>
+            <p>Des projets courts qui montrent ce que j'apprends et ce que je peux construire.</p>
+        </div>
+
+        <div class="projects-grid">
+            <article class="project-card">
+                <span class="project-number">01</span>
+                <div class="project-icon">⌨</div>
+                <span class="project-tech">HTML · CSS</span>
+                <h3>Landing Page</h3>
+                <p>Une page web moderne réalisée pour travailler la structure, le responsive design et les animations CSS.</p>
+                <a href="mini-projects/landing-page.html">Voir le projet →</a>
+            </article>
+
+            <article class="project-card">
+                <span class="project-number">02</span>
+                <div class="project-icon">JS</div>
+                <span class="project-tech">JAVASCRIPT</span>
+                <h3>To-Do List</h3>
+                <p>Une petite application interactive pour pratiquer le DOM, les événements et la gestion des données.</p>
+                <a href="mini-projects/todo.html">Voir le projet →</a>
+            </article>
+
+            <article class="project-card">
+                <span class="project-number">03</span>
+                <div class="project-icon">DB</div>
+                <span class="project-tech">PHP · MYSQL</span>
+                <h3>CRUD Application</h3>
+                <p>Une application CRUD pour pratiquer les formulaires, les requêtes SQL et la connexion à une base de données.</p>
+                <a href="mini-projects/crud.html">Voir le projet →</a>
+            </article>
+        </div>
+    </section>
+
+    <section id="contact" class="contact-section">
+        <div>
+            <span class="eyebrow">CONTACT</span>
+            <h2>Let's build something<br><span>interesting.</span></h2>
+            <p>Disponible pour des stages, collaborations et nouvelles opportunités d'apprentissage.</p>
+        </div>
+
+        <div class="contact-buttons">
+            <a class="btn" href="mailto:dohahandira@gmail.com">Email me →</a>
+            <a class="btn secondary" href="https://www.linkedin.com/in/YOUR_USERNAME" target="_blank">LinkedIn ↗</a>
+        </div>
+    </section>
+</main>
+
+<footer>
+    <div>
+        <strong>Doha El Handira</strong>
+        <span>Développement Digital · Tangier, Morocco</span>
+    </div>
+    <span class="footer-note">Keep going ♡</span>
+    <div class="footer-links">
+        <a href="https://github.com/YOUR_USERNAME" target="_blank">GitHub</a>
+        <a href="mailto:dohahandira@gmail.com">Email</a>
+    </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

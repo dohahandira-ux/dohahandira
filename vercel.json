@@ -5,9 +5,10 @@
     }
   },
   "routes": [
-    {
-      "src": "^/$",
-      "dest": "/api/index.php"
+    {{
+  "src": "^/$",
+  "dest": "/index.html"
+}
     },
     {
       "src": "^/(.*\\.php)$",

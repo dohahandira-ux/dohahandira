@@ -1,0 +1,16 @@
+warning: in the working copy of 'index.html', LF will be replaced by CRLF the next time Git touches it
+[1mdiff --git a/index.html b/index.html[m
+[1mindex ce60cd9..af3ba5d 100644[m
+[1m--- a/index.html[m
+[1m+++ b/index.html[m
+[36m@@ -94,8 +94,8 @@[m
+                 <h3>Figma</h3>[m
+                 <p>Maquettes et prototypes d'interfaces utilisateurs.</p>[m
+                 <div class="atelier-list">[m
+[31m-                    <a href="figma/atelie%201%20figma.pdf">▧ &nbsp; Atelier 1</a>[m
+[31m-                    <a href="figma/atelier 2figma.pdf">▧ &nbsp; Atelier 2</a>[m
+[32m+[m[32m                    <a href="figma/atelie%201%20figma.pdf"  target="_blank">▧ &nbsp; Atelier 1</a>[m
+[32m+[m[32m                    <a href="figma/atelier 2figma.pdf"  target="_blank">▧ &nbsp; Atelier 2</a>[m
+                     <a href="figma/">▧ &nbsp; Atelier 3</a>[m
+                 </div>[m
+                 <a href="#" class="card-arrow">→</a>[m
